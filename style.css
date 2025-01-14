@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: 10px;
+    background-color: whitesmoke;
+    color: white;
+    min-height: 50px;
+    z-index: 999;
+}
+
+
+.navlinks{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 10px;
+}
+
+
+.navbarlogo{
+    font-weight: bold;
+    background-color: #690000;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto Mono", serif;
+    letter-spacing:2px ;
+    font-size: 2rem;
+}
+
+.menu{
+    font-family: "Roboto Mono", serif;
+    letter-spacing:2px ;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.searchbox{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 30px;
+    
+}
+  
+.searchbox:hover{
+    color: white;
+    background-color: #690000;
+}
+
+.login{
+    color: black;
+    padding: 2px;
+}
+  
+.login:hover{
+    color: #690000;
+}
+
+.shopping{
+    color: black;
+    padding: 2px;
+}
+  
+.shopping:hover{
+    color: #690000;
+}
+
+.menu:hover{
+    background-color: #690000;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    
+}
+
+.homepage{
+    display: flex;
+    justify-content: center;
+}
+
+.page2{
+    margin-top: 350px;
+    text-align: center;
+    z-index: 0px;
+}
+
+.text{
+    font-family: "IBM Plex Mono", serif; 
+}
+
+/*hero section*/
+
+.main{
+  
+}
+.mainimg{
+    display: block;
+    
+    padding: 10%;
+    
+    margin:center;
+    margin-left: auto;
+    margin-right: 650px;
+    width:50%;
+
+}
+.maintext h1{
+    padding-top: 30px ;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-size: 1.25rem;
+    color: #690000;
+}
+
+.maintext h1:hover{
+    text-decoration: underline;
+    cursor:default;
+}
+
+
+
+.maintext p{
+    padding-top: 5px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    color: black;
+}
+
+/*page 2*/
+
+.page2{
+    margin-top: 324px;  
+    background: linear-gradient(to bottom, #4F1802, #440000,#692121,#eda6a6,white);
+    display: flex;
+    position:sticky;
+    justify-content: space-between;
+    height: 650px;
+
+}
+.backgroundimg2 .imageleft{
+    flex: 1;
+    margin-top: 100px;
+    max-width: 80%;
+    height: auto;
+    justify-items: center;
+    border-radius: 5px;
+
+    
+}
+
+
+.page2text h1{
+    font-family: "Alexandria", serif;
+    font-weight: thin;
+    
+    
+}
+
+.page2logo{
+    display: block;
+
+    justify-content: center;
+    flex: 1;
+    margin-top: 200px;
+    
+}
+
+.GEAR{
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing:25px;
+    
+   
+}
+
+.UP{
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing:25px;
+
+    
+    
+  
+
+}
+
+.FORCAMPUS{
+    color: white;
+    font-size: 8px;
+    
+    margin-top: -50px;
+    margin-right: -80px;
+   
+} 
+
+.firstline{
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    font-weight:lighter;
+    margin-top: -30px;
+    margin-left: 50px;
+    letter-spacing:7px;
+
+}
+
+.secondline{
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    font-weight:lighter;
+    margin-top: -40px;
+    margin-left: 50px;
+    letter-spacing:7px;
+}
+
+.page2text p{
+    margin-top: 50px;
+    margin-right: 70px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*page 3*/
+
+.page3{
+    margin-top:;
+    height:500px;
+    
+}
+
+.backgroundimg3{
+    display: block;
+    background: black;
+}
+
+.backgroundtext h1{
+
+}
