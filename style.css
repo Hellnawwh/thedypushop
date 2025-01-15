@@ -329,3 +329,79 @@ ul{
     font-family: "Playfair Display", serif;
 }
 
+/*page 5*/
+
+.page5{
+    background-color: #0D203E;
+    position: relative;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic1 {
+    margin-left: 10%;
+}
+.tshirts{
+    margin-left: 13%;
+}
+
+.pic3{
+    margin-right: 10%;
+}
+.accesories{
+}
+
+.hoodies{
+    margin-right: 10%;
+}
+
+.page5text{
+    color: white;
+    display: flex;
+    position:absolute;
+    width: 100%;
+    bottom: 10%;
+    justify-content: space-between;
+    font-family: "Aref Ruqaa", serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.page5text.tshirt:hover{
+    color: cornflowerblue;
+    cursor: default;
+}
+
+.hoodies:hover{
+    color: cornflowerblue;
+    cursor: default;
+}
+
+.manymore:hover{
+    color: cornflowerblue;
+    cursor: default;
+}
+
+.page6{
+    display: flex;
+    background: radial-gradient(ellipse at left, #690000, transparent),
+            radial-gradient(ellipse at right, #4F1802, transparent);
+    
+    justify-content: space-between;
+}
+
+
+.page6text{
+    display: block;
+    margin-top:15%;
+    margin-right: 20%;
+    text-align: center;
+    color: rgb(51, 1, 1);
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-size: 30px;
+ 
+}
+
